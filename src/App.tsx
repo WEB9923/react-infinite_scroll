@@ -2,7 +2,7 @@ import {JSX, useEffect, useState} from "react";
 import axios, {AxiosResponse} from "axios";
 import Card from "./components/Card.tsx";
 interface IPosts {
-  userId: number;
+  userId?: number;
   id: number;
   title: string;
   body: string;
